@@ -1,0 +1,33 @@
+datatable-manager/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── favicon.ico
+├── components/
+│   ├── DataTable/
+│   │   ├── DataTable.tsx
+│   │   ├── ColumnManager.tsx
+│   │   ├── SearchBar.tsx
+│   │   ├── PaginationControls.tsx
+│   │   └── RowEditor.tsx
+│   ├── ImportExport/
+│   │   ├── ImportModal.tsx
+│   │   └── ExportButton.tsx
+│   ├── ThemeToggle/
+│   │   └── ThemeToggle.tsx
+│   └── Layout/
+│       └── Navbar.tsx
+├── lib/
+│   ├── data.ts
+│   ├── utils.ts
+│   └── validation.ts
+├── store/
+│   ├── tableSlice.ts
+│   └── store.ts
+├── types/
+│   └── index.ts
+├── next.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+└── package.json
